@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/8ac8dbf08a.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="row">
+                <div class="col-8">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-2">
+                                Paris
+                            </div>
+                            <div class="col-2">
+                                London
+                            </div>
+                            <div class="col-2">
+                                Bangkok
+                            </div>
+                            <div class="col-2">
+                                Mauritius
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-2">
+                        <form class="row g-3" id="searchform">
+                            <div class="col-auto">
+                                <input type="text" placeholder="Enter your city" id="searchtext" />
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-success mb-3">
+                                    Search
+                                </button>
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-warning mb-3">
+                                    Current
+                                </button>
+                            </div>
+                        </form>
+                        <div class="row">
+                            <div class="col-12" id="cityname"></div>
+                            <div class="col-12" id="special-date">
+                                Thursday 17:53
+                            </div>
+                            <div class="col-6" id="description"></div>
+                        </div>
+                        <br />
+
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <i class="fa-regular fa-sun sun-icon"></i>
+                            </div>
+
+                            <div class="col-md-8">
+                                <h5 class="card-title">
+                                    humidity : <span id="humidity"> </span> %
+                                </h5>
+                                <p class="card-text">Wind : <span id="wind"> </span>km/h</p>
+                            </div>
+                        </div>
+
+                        <br />
+                        <div class="row">
+                            <div class="class-degre">
+                                <div class="col-8" id="degree"></div>
+                                <span>°C</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item">Fri</li>
+                        <li class="list-group-item">
+                            <i class="fa-regular fa-sun sun-icon-2"></i>
+                        </li>
+                        <li class="list-group-item">28°C</li>
+                    </ul>
+                    <br />
+
+                    <ul class="list-group list-group-horizontal-sm">
+                        <li class="list-group-item">Sat</li>
+                        <li class="list-group-item">
+                            <i class="fa-regular fa-sun sun-icon-2"></i>
+                        </li>
+                        <li class="list-group-item">28°C</li>
+                    </ul>
+                    <br />
+                    <ul class="list-group list-group-horizontal-md">
+                        <li class="list-group-item">Sun</li>
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-cloud cloud-icon"></i>
+                        </li>
+                        <li class="list-group-item">20°C</li>
+                    </ul>
+                    <br />
+                    <ul class="list-group list-group-horizontal-lg">
+                        <li class="list-group-item">Mon</li>
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-cloud-rain cloud-rain-icon"></i>
+                        </li>
+                        <li class="list-group-item">18°C</li>
+                    </ul>
+                    <br />
+                    <ul class="list-group list-group-horizontal-xl">
+                        <li class="list-group-item">Tue</li>
+                        <li class="list-group-item">
+                            <i class="fa-solid fa-cloud-rain cloud-rain-icon"></i>
+                        </li>
+                        <li class="list-group-item">14°C</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
