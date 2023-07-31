@@ -4,7 +4,10 @@
 }
 
 .card {
-    margin-top: 50px;
+    margin-top: 50px;  
+    border-radius: 10px;
+    width: 70%;
+  
 }
 
 .sun-icon {
@@ -12,34 +15,19 @@
     font-size: 100px;
 }
 
-.col-12 {
-    color: blue;
-    font-weight: lighter;
-}
-
-.col-6 {
-    font-weight: lighter;
-}
-
-.col-md-8 {
-    color: blue;
-    font-weight: lighter;
-}
-
-.col-4 {
-    margin-top: 100px;
-}
 
 .class-degre {
     color: blue;
     font-size: 25px;
     margin-left: 30px;
     font-weight: lighter;
+    
 }
 
 .container-2 {
     margin: 10px;
     margin-top: 20px;
+    margin-right: 10px;
 }
 
 .sun-icon-2 {
@@ -55,27 +43,11 @@
     font-size: 24px;
 }
 
-.list-group list-group-horizontal {
-    margin-right: 10px;
-}
-
-.col-4 {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin: right 8px;
-}
-
-.col-4 {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    font-size: 23px;
-}
-
-.col-8 {
-    font-size: 20px;
-    display: inline;
-}
 
 .degree {
-    font-size-adjust: 1000px;
+    font-size: 1000px;
+
+}
+.units {
+    position: relative;
 }

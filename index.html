@@ -16,23 +16,6 @@
     <div class="container">
         <div class="card">
             <div class="row">
-                <div class="col-8">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-2">
-                                Paris
-                            </div>
-                            <div class="col-2">
-                                London
-                            </div>
-                            <div class="col-2">
-                                Bangkok
-                            </div>
-                            <div class="col-2">
-                                Mauritius
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="container-2">
                         <form class="row g-3" id="searchform">
@@ -44,15 +27,11 @@
                                     Search
                                 </button>
                             </div>
-                            <div class="col-auto">
-                                <button type="submit" class="btn btn-warning mb-3">
-                                    Current
-                                </button>
-                            </div>
+                          
                         </form>
                         <div class="row">
-                            <div class="col-12" id="cityname"></div>
-                            <div class="col-12" id="special-date">
+                            <div class="col-8" id="cityname"></div>
+                            <div class="col-8" id="special-date">
                                 Thursday 17:53
                             </div>
                             <div class="col-6" id="description"></div>
@@ -61,10 +40,12 @@
 
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <i class="fa-regular fa-sun sun-icon"></i>
+                                <img src="https://cdn-icons-png.flaticon.com/512/1779/1779940.png" 
+                                width=100px id="icon">
+                                
                             </div>
 
-                            <div class="col-md-8">
+                            <div class="col-md-4">
                                 <h5 class="card-title">
                                     humidity : <span id="humidity"> </span> %
                                 </h5>
@@ -73,57 +54,18 @@
                         </div>
 
                         <br />
+
                         <div class="row">
                             <div class="class-degre">
-                                <div class="col-8" id="degree"></div>
-                                <span>°C</span>
+                                <div class="temp" id="degree"> </div>
+                             <span class = units > °C | F </span>
+                           
                             </div>
                         </div>
-                    </div>
+
+                       
                 </div>
 
-                <div class="col-4">
-                    <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item">Fri</li>
-                        <li class="list-group-item">
-                            <i class="fa-regular fa-sun sun-icon-2"></i>
-                        </li>
-                        <li class="list-group-item">28°C</li>
-                    </ul>
-                    <br />
-
-                    <ul class="list-group list-group-horizontal-sm">
-                        <li class="list-group-item">Sat</li>
-                        <li class="list-group-item">
-                            <i class="fa-regular fa-sun sun-icon-2"></i>
-                        </li>
-                        <li class="list-group-item">28°C</li>
-                    </ul>
-                    <br />
-                    <ul class="list-group list-group-horizontal-md">
-                        <li class="list-group-item">Sun</li>
-                        <li class="list-group-item">
-                            <i class="fa-solid fa-cloud cloud-icon"></i>
-                        </li>
-                        <li class="list-group-item">20°C</li>
-                    </ul>
-                    <br />
-                    <ul class="list-group list-group-horizontal-lg">
-                        <li class="list-group-item">Mon</li>
-                        <li class="list-group-item">
-                            <i class="fa-solid fa-cloud-rain cloud-rain-icon"></i>
-                        </li>
-                        <li class="list-group-item">18°C</li>
-                    </ul>
-                    <br />
-                    <ul class="list-group list-group-horizontal-xl">
-                        <li class="list-group-item">Tue</li>
-                        <li class="list-group-item">
-                            <i class="fa-solid fa-cloud-rain cloud-rain-icon"></i>
-                        </li>
-                        <li class="list-group-item">14°C</li>
-                    </ul>
-                </div>
             </div>
         </div>
        <a href="https://github.com/Fenosoarandriambola/shecodes"> github url</a>
