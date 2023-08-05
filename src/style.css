@@ -6,7 +6,7 @@
 .card {
     margin-top: 50px;  
     border-radius: 10px;
-    width: 70%;
+    width: 90%;
   
 }
 
@@ -18,10 +18,12 @@
 
 
 .container-2 {
-    margin: 10px;
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 50px;
+    
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left:30px;
+    text-align: justify;
+    margin-bottom: 30px;
   
 }
 
@@ -61,4 +63,22 @@ opacity: 0.5;
 }
 .forecast-temperature{
     font-size: 13px;
+}
+
+
+#searchform{
+margin-top: var(--bs-gutter-y);
+max-width: 100%;
+padding-left: calc(var(--bs-gutter-x)*.5);
+padding-right: calc(var(--bs-gutter-x)*.5);
+}
+
+#searchtext {
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: antiquewhite;
+}
+.row{
+    margin-top: 2%;
 }
