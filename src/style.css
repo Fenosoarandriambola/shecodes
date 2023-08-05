@@ -15,19 +15,14 @@
     font-size: 100px;
 }
 
-/* 
-.class-degre {
-    color: blue;
-    font-size: 25px;
-    margin-left: 30px;
-    font-weight: lighter;
-    
-} */
+
 
 .container-2 {
     margin: 10px;
     margin-top: 20px;
     margin-right: 10px;
+    margin-left: 50px;
+  
 }
 
 .sun-icon-2 {
@@ -55,4 +50,15 @@
     position: relative;
     font-size: 15px;
     top: -20px;
+}
+
+.forecast-date{
+    font-size: 16px;
+    opacity: 0.5;
+}
+.forecast-temperature-min{
+opacity: 0.5;
+}
+.forecast-temperature{
+    font-size: 13px;
 }
