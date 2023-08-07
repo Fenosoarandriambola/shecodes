@@ -1,12 +1,15 @@
 .card-body {
     color: blue;
     font-weight: bold;
+    
 }
 
 .card {
     margin-top: 50px;  
     border-radius: 10px;
     width: 90%;
+    background-color: rgb(134, 234, 150);
+    
   
 }
 
@@ -43,7 +46,7 @@
 
 #degree {
     font-size: 40px;
-    color: blue;
+    color: black;
 
 }
 
